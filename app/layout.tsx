@@ -13,8 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Quiz Méthode Agile",
-  description: "Quiz interactif sur les méthodes agiles — Scrum, Kanban, SAFe et plus.",
+  title: "Quiz Méthodes Agiles",
+  description:
+    "Testez vos connaissances sur les méthodes agiles : Scrum, Kanban, XP, SAFe et les fondamentaux.",
 };
 
 export default function RootLayout({
