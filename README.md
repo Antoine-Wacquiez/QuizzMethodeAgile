@@ -40,3 +40,11 @@ L'application est disponible sur [http://localhost:3000](http://localhost:3000).
 - [Next.js](https://nextjs.org) 16 — App Router
 - TypeScript
 - ESLint
+
+## Intégration continue (CI)
+
+Le projet utilise **GitHub Actions** pour l'intégration continue.
+
+| Workflow | Déclencheur | Rôle |
+| --- | --- | --- |
+| [`ci.yml`](.github/workflows/ci.yml) | push sur `main` et PR | Installe les dépendances, lint, build, et lance les tests (`npm test --if-present`). |
