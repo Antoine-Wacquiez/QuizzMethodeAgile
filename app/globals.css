@@ -17,4 +17,9 @@
   a {
     @apply text-inherit no-underline;
   }
+
+  body {
+    color: var(--foreground);
+    background-color: var(--background); 
+  }
 }
