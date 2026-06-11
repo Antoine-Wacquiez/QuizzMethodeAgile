@@ -18,7 +18,18 @@ export default function Home() {
           >
             Voir le design system
           </Link>
-        </div>
+        <div className="text-center bg-white p-8 rounded-xl shadow-md max-w-md border border-gray-100">
+        <h1 className="text-2xl font-bold text-gray-900 mb-2">
+          Lance le quizz
+        </h1>        
+        <Link 
+          href="/quizz" 
+          className="inline-block mt-4 px-4 py-2 bg-blue-500 text-white font-medium rounded-lg hover:bg-blue-600 transition-colors"
+        >
+          Commencer
+        </Link>
+      </div>
+      </div>
       </div>
     </main>
   );
